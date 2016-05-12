@@ -1,7 +1,7 @@
 FROM tutum/apache-php
 
 RUN apt-get update
-RUN apt-get install -y unzip libaio-dev php5-dev php5-pgsql php5-mysql php5-sqlite php5-mssql php5-fpm php5-cli wget 
+RUN apt-get install -y unzip libaio-dev php5-dev
 RUN apt-get clean -y
 
 # Oracle instantclient
